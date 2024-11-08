@@ -21,13 +21,16 @@ const port = 8000;
 // Setup Server
 app.listen(port, () => console.log(`server is running on ${port}`));
 
+
 app.get('/all', (req, res) => {
+    console.log(projectData);
     res.send(projectData);
 });
-const data = [];
+
 app.post('/addtemp', (req, res) => {
-    res.send(req.body);
+    projectData['date'] = req.body.date;
     projectData['temp'] = req.body.temp;
-    projectData['feel'] = req.body.feel;
+    projectData['city'] = req.body.city;
+    projectData['feelings'] = req.body.feelings;
 
 });
