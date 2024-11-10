@@ -30,17 +30,17 @@ The goal of project is to get experience with:
 ## Dependencies:
 
 * Node.js
-    *[website] (https://nodejs.org/en).
+    * [website](https://nodejs.org/en).
 
 * Express framework
-    *[website] (https://expressjs.com/).
+    * [website](https://expressjs.com/).
 
 * Node.js packages:
-  *cors
+  * cors
 ## Getting started
 ### Prerequisites
 
-* Download [Node.js] (https://nodejs.org/en/download/).
+* Download [Node.js](https://nodejs.org/en/download/).
 * Install the following packages using ```npm```:
 ```sh
 npm install express
