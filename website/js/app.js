@@ -79,7 +79,6 @@ const updateUI = async () => {
     const request = await fetch('/all');
     try {
         const allData = await request.json();
-        console.log(allData);
         document.getElementById('title').innerText = '';
         document.getElementById('date').innerText = allData.date;
         document.getElementById('temp').innerHTML = `${allData.temp}&deg;F in ${allData.city}`;
